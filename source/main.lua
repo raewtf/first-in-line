@@ -66,7 +66,7 @@ if save.score_arcade_easy >= 21 then
     save.hard = true
 end
 
-achievements.initialize(achievementData, false)
+achievements.initialize(achievementData, true)
 
 function updatecheevos()
 	achievements.advanceTo("act5", save.score_arcade_easy + 1)

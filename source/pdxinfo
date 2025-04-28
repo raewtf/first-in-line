@@ -3,6 +3,6 @@ author=rae
 description=It's opening night, and our lead star dropped out! Can you memorize these lines REALLY quickly?
 bundleID=wtf.rae.firstinline
 version=2.2.6
-buildNumber=1105
+buildNumber=1106
 imagePath=images/system
 launchSoundPath=audio/sfx/launch
