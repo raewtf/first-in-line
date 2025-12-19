@@ -185,7 +185,7 @@ function play:init(...)
         end
         assets.patch:draw(53, 0)
         assets.image_audience:draw(0, 200 + (10 * vars.anim_audience.value))
-        if mode ~= "oneshot" then
+        if mode ~= "oneshot" and assets.miss ~= nil and vars.misses ~= nil then
             assets.miss[vars.misses + 1]:draw(20, 190)
         end
         if vars.button_text_string ~= '' then
